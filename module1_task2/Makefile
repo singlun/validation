@@ -11,5 +11,5 @@ post:	## Create a new Posts by providing the titile and name as argument.
 help:	## A help manual describe all the features of this script.
 	@echo "build: Build the Project. All the build artifacts will be at the "dist" folder."	
 	@echo "clean: Clean the Project. Delete all the build artifacts from the "dist" folder."	
-	@echo "posts: Generate a new Posts. Create a new Posts by providing the titile and name as argument."
+	@echo "post: Generate a new Posts. Create a new Posts by providing the titile and name as argument."
 	@echo "help: Show this help usage"	
