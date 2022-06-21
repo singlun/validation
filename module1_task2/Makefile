@@ -2,7 +2,7 @@
 build:	## Build the Project. All the build artifacts will be stored at the "dist" folder. 
 	@echo "Build Project"
 	hugo -D
-clean:	## Delete all the build artifacts from the "dist" folder.
+clean:	## Delete the "dist" folder.
 	@echo "Clean Project"
 	rm -rf ./dist
 post:	## Create a new Posts by providing the titile and name as argument.
