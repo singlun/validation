@@ -9,7 +9,6 @@ post:	## Create a new Posts by providing the titile and name as argument.
 	@echo "Create A New Blog Post"
 	touch ./content/posts/$(POST_NAME).md && echo "---\ntitle: \"$(POST_TITLE)\"\ndate: '2022-06-21T02:08:40+08:00'\ndraft: true\n---" >> ./content/posts/$(POST_NAME).md
 help:	## A help manual describe all the features of this script.
-	@echo "A help manual"
 	@echo "build: Build the Project. All the build artifacts will be at the "dist" folder."	
 	@echo "clean: Clean the Project. Delete all the build artifacts from the "dist" folder."	
 	@echo "posts: Generate a new Posts. Create a new Posts by providing the titile and name as argument."
